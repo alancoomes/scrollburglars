@@ -1028,6 +1028,10 @@ video {
 	padding-left: 1.6666667em;
 }
 
+h1, h2 {
+	overflow-wrap: break-word;
+}
+
 .prose-lg ul > li::before {
 	width: 0.3333333em;
 	height: 0.3333333em;
@@ -1364,6 +1368,7 @@ video {
 
 .max-w-md {
 	max-width: 28rem !important;
+	width: 100%;
 }
 
 .max-w-80 {
